@@ -5,6 +5,18 @@ public final class Worked {
     private String name;
     private int workExperience;
 
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setWorkExperience(int workExperience) {
+        this.workExperience = workExperience;
+    }
+
     public Worked(int id, String name, int workExperience) {
         this.id = id;
         this.name = name;
